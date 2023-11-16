@@ -21,3 +21,15 @@ body {
     width: 90%;
   }
 }
+
+.attribution {
+  font-family: $sans_sarif_font;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 600px) {
+    width: 90%;
+    margin: 2rem auto;
+    display: block;
+  }
+}
