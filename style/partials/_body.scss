@@ -7,19 +7,12 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  @media (max-width: 600px) {
-    height: 87vh;
-  }
 }
 
 .card {
   display: flex;
   justify-content: baseline;
   width: 37.5rem;
-  @media (max-width: 600px) {
-    flex-direction: column;
-    width: 90%;
-  }
 }
 
 .attribution {
@@ -27,9 +20,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  @media (max-width: 600px) {
-    width: 90%;
-    margin: 2rem auto;
-    display: block;
-  }
 }
