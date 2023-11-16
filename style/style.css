@@ -236,7 +236,8 @@ body {
 
 @media (max-width: 600px) {
   .container {
-    height: 87vh;
+    margin-top: 1rem;
+    height: 90%;
   }
   .card {
     flex-direction: column;
