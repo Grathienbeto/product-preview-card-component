@@ -5,6 +5,9 @@
 
   .text_container {
     padding: 2rem;
+    @media (max-width: 600px) {
+      padding: 2rem 1.5rem;
+    }
   }
 
   .article {
@@ -74,8 +77,12 @@
         padding-right: 0.75rem;
       }
     }
+
     :hover {
       cursor: pointer;
+    }
+    :active {
+      background-color: #1a4031;
     }
   }
 }

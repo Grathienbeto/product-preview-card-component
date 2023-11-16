@@ -1,6 +1,20 @@
 .img_box {
-  img {
+  .img_desktop {
     border-radius: 10px 0 0 10px;
     height: 28.125rem;
+  }
+  .img_mobile {
+    display: none;
+  }
+
+  @media (max-width: 600px) {
+    .img_desktop {
+      display: none;
+    }
+    .img_mobile {
+      border-radius: 10px 10px 0 0;
+      width: 100%;
+      display: block;
+    }
   }
 }
